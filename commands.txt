@@ -6,10 +6,13 @@ yarn add express
 yarn add nodemon -D
 yarn add mongoose
 yarn add multer
+yarn add cors
 
 portquiz.net:27017 (verificar se estou por trás de um proxy)
 
 // ----------- Frontend --------------
-
+yarn create react-app frontend
+yarn add axios
+yarn add react-router-dom
 
 // ----------- Mobile --------------
