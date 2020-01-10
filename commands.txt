@@ -7,6 +7,7 @@ yarn add nodemon -D
 yarn add mongoose
 yarn add multer
 yarn add cors
+yarn add socket.io
 
 portquiz.net:27017 (verificar se estou por trás de um proxy)
 
@@ -14,9 +15,11 @@ portquiz.net:27017 (verificar se estou por trás de um proxy)
 yarn create react-app frontend
 yarn add axios
 yarn add react-router-dom
+yarn add socket.io-client
 
 // ----------- Mobile --------------
 expo init mobile
 yarn add react-navigation
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
 yarn add axios
+yarn add socket.io-client

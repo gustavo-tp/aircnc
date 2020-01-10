@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-html, body, #hoot {
+html, body, #root {
   min-height: 100%;
 }
 
@@ -39,7 +39,7 @@ body, input, button {
   padding: 30px;
 }
 
-.content p {
+.content > p {
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 30px;
