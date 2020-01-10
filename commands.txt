@@ -16,3 +16,7 @@ yarn add axios
 yarn add react-router-dom
 
 // ----------- Mobile --------------
+expo init mobile
+yarn add react-navigation
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+yarn add axios
