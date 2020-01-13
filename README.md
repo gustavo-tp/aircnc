@@ -60,5 +60,5 @@ yarn start
 Then open the Expo app on your phone and scanned the QR code.
 
 ### Acknowledgments
-
-* [Rocketseat](https://github.com/Rocketseat)
+* [<img src="https://avatars3.githubusercontent.com/u/28929274?s=96&v=4" width="48" height="48" alt="@Rocketseat"><br><sub>@Rocketseat</sub>](https://github.com/Rocketseat)
+* [<img src="https://avatars3.githubusercontent.com/u/2254731?s=96&v=4" width="48" height="48" alt="@diego3g"><br><sub>@diego3g</sub>](https://github.com/diego3g)
