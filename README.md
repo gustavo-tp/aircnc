@@ -38,23 +38,26 @@ If you do not have any of the software below, follow the link to install
 
 Follow the steps below to run the project on your computer. (using terminal or git bash)
 
-1. Clone this project
+1. Clone this repository
 ```
 git clone git@github.com:gustavo-tp/aircnc.git
 ```
 2. Run Backend
 ```
 cd aircnc/backend
+yarn install
 yarn dev
 ```
 3. Run WEB App
 ```
 cd ../frontend
+yarn install
 yarn start
 ```
 4. Run Mobile App
 ```
 cd ../mobile
+yarn install
 yarn start
 ```
 Then open the Expo app on your phone and scanned the QR code.
