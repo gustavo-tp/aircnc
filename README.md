@@ -21,7 +21,7 @@ The purpose of this application is to allow companies to make available spots so
 ### Technologies used
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
+- [ReactJS](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
