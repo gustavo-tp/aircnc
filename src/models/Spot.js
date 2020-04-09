@@ -8,18 +8,18 @@ const SpotSchema = new mongoose.Schema(
     techs: [String],
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User'
-    }
+      ref: 'User',
+    },
   },
   {
     toJSON: {
-      virtuals: true
-    }
+      virtuals: true,
+    },
   }
 );
 
-SpotSchema.virtual('thumbnail_url').get(function() {
-  return `http://192.168.1.15:3333/files/${this.thumbnail}`;
+SpotSchema.virtual('thumbnail_url').get(function () {
+  return `https://aircnc-gustavo-tp.herokuapp.com/files/${this.thumbnail}`;
 });
 
 module.exports = mongoose.model('Spot', SpotSchema);
