@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aircnc/static/css/main.5cec01ce.chunk.css",
+    "main.js": "/aircnc/static/js/main.d475a7c6.chunk.js",
+    "main.js.map": "/aircnc/static/js/main.d475a7c6.chunk.js.map",
+    "runtime-main.js": "/aircnc/static/js/runtime-main.fbdb279c.js",
+    "runtime-main.js.map": "/aircnc/static/js/runtime-main.fbdb279c.js.map",
+    "static/js/2.f5231d95.chunk.js": "/aircnc/static/js/2.f5231d95.chunk.js",
+    "static/js/2.f5231d95.chunk.js.map": "/aircnc/static/js/2.f5231d95.chunk.js.map",
+    "index.html": "/aircnc/index.html",
+    "precache-manifest.242c3443ff9013da8fa28bc6f465820c.js": "/aircnc/precache-manifest.242c3443ff9013da8fa28bc6f465820c.js",
+    "service-worker.js": "/aircnc/service-worker.js",
+    "static/css/main.5cec01ce.chunk.css.map": "/aircnc/static/css/main.5cec01ce.chunk.css.map",
+    "static/js/2.f5231d95.chunk.js.LICENSE": "/aircnc/static/js/2.f5231d95.chunk.js.LICENSE",
+    "static/media/App.css": "/aircnc/static/media/background.83252e0a.jpg",
+    "static/media/camera.svg": "/aircnc/static/media/camera.6a6f4b6e.svg",
+    "static/media/logo.svg": "/aircnc/static/media/logo.74052802.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbdb279c.js",
+    "static/js/2.f5231d95.chunk.js",
+    "static/css/main.5cec01ce.chunk.css",
+    "static/js/main.d475a7c6.chunk.js"
+  ]
+}
