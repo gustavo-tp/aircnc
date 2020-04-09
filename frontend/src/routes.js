@@ -7,7 +7,7 @@ import New from './pages/New';
 
 export default function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="aircnc">
       <Switch>
         <Route path="/" exact component={Login} />
         <Route path="/dashboard" component={Dashboard} />

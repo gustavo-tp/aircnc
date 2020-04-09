@@ -13,14 +13,14 @@ export default function Dashboard() {
 
   const socket = useMemo(
     () =>
-      socketio('http://localhost:3333', {
-        query: { user_id }
+      socketio('https://aircnc-gustavo-tp.herokuapp.com', {
+        query: { user_id },
       }),
     [user_id]
   );
 
   useEffect(() => {
-    socket.on('booking_request', data => {
+    socket.on('booking_request', (data) => {
       setRequests([...requests, data]);
     });
   }, [requests, socket]);
@@ -29,7 +29,7 @@ export default function Dashboard() {
     async function loadSpots() {
       const user_id = localStorage.getItem('user');
       const response = await api.get('/dashboard', {
-        headers: { user_id }
+        headers: { user_id },
       });
 
       setSpots(response.data);
@@ -41,19 +41,19 @@ export default function Dashboard() {
   async function handleAccept(id) {
     await api.post(`/bookings/${id}/approvals`);
 
-    setRequests(requests.filter(request => request._id !== id));
+    setRequests(requests.filter((request) => request._id !== id));
   }
 
   async function handleReject(id) {
     await api.post(`/bookings/${id}/rejections`);
 
-    setRequests(requests.filter(request => request._id !== id));
+    setRequests(requests.filter((request) => request._id !== id));
   }
 
   return (
     <>
       <ul className="notifications">
-        {requests.map(request => (
+        {requests.map((request) => (
           <li key={request._id}>
             <p>
               <strong>{request.user.email}</strong> está solicitando uma reserva
@@ -77,7 +77,7 @@ export default function Dashboard() {
       </ul>
 
       <ul className="spot-list">
-        {spots.map(spot => (
+        {spots.map((spot) => (
           <li key={spot._id}>
             <header style={{ backgroundImage: `url(${spot.thumbnail_url})` }} />
             <strong>{spot.company}</strong>
